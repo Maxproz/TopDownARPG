@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TopDownARPG.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{17A074F1-BE49-4C0A-A8CD-98FAFF280F3E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TopDownARPG.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TopDownARPGEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F7D96F6A-F387-4355-8D4D-1C6153D1ED3D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TopDownARPG">
+			<UniqueIdentifier>{9DBCC424-2AFD-45A9-824E-C7EE040EFBBF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TopDownARPG\TopDownARPG.Build.cs">
+			<Filter>Source\TopDownARPG</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TopDownARPG\TopDownARPG.cpp">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopDownARPG\TopDownARPG.h">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TopDownARPG\TopDownARPGCharacter.cpp">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopDownARPG\TopDownARPGCharacter.h">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TopDownARPG\TopDownARPGGameMode.cpp">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopDownARPG\TopDownARPGGameMode.h">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TopDownARPG\TopDownARPGPlayerController.cpp">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopDownARPG\TopDownARPGPlayerController.h">
+			<Filter>Source\TopDownARPG</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
